@@ -1,0 +1,43 @@
+{
+  "name": "bookingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.2.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.3.1",
+    "helmet": "^7.1.0",
+    "html-to-text": "^9.0.5",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^6.3.0",
+    "mongoose": "^6.3.1",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^6.9.10",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2",
+    "redis": "^4.6.14",
+    "supertest": "^7.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "validator": "^13.11.0",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.1.2"
+  }
+}
