@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const app = require("./app");
+const app = require("./src/app");
 const PORT = process.env.PORT || 8800;
 
 const connect = async () => {
