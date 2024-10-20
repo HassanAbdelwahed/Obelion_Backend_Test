@@ -2,6 +2,7 @@ const Book = require("../models/Book");
 const tryCatch = require("../helpers/tryCatch.js");
 
 exports.getAvailableBooks = tryCatch(async (req, res, next) => {
+  // search and filters
   let query = Book.find();
   let queryObj = { ...req.query, copiesAvailable: { gt: 0 } };
   delete queryObj["fields"];
