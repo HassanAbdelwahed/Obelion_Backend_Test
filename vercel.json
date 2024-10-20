@@ -1,5 +1,13 @@
 {
   "version": 2,
   "builds": [{ "src": "server.js", "use": "@vercel/node" }],
-  "routes": [{ "src": "/(.*)", "dest": "server.js" }]
+  "routes": [{ "src": "/(.*)", "dest": "server.js" }],
+  "projectSettings": {
+    "buildCommand": null,
+    "devCommand": null,
+    "framework": "nodejs",
+    "commandForIgnoringBuildStep": "",
+    "installCommand": null,
+    "outputDirectory": null
+  }
 }
