@@ -2,10 +2,12 @@
 
 ## Deployment 
 Application deplyed on AWS
-base url
+
 ```bash
 http://18.209.229.144:8800
 ```
+
+Application also dockerized using docker compose
 
 ## Documentation using Swagger
 ```bash
