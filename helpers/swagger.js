@@ -9,7 +9,7 @@ const swaggerDefinition = {
   },
   servers: [
     {
-      url: "http://localhost:8800",
+      url: "http://18.209.229.144:8800",
       description: "Local development server",
     },
   ],
@@ -116,7 +116,7 @@ const swaggerDefinition = {
 // Options for swagger-jsdoc
 const options = {
   swaggerDefinition,
-  apis: ["/obelionBackendTest/routes/*.js"],
+  apis: ["./routes/*.js"],
 };
 
 const swaggerSpec = swaggerJsdoc(options);
